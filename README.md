@@ -50,25 +50,32 @@ In this homework assignment, you will need to:
 
 * Create a README that reports a comparison of each model's performance as well as a summary about your findings and any assumptions you can make based on your model (is your model good enough to predict new exoplanets? Why or why not? What would make your model be better at predicting new exoplanets?).
 
-## Random Forests
+### Random Forests
 * Grid test score: 0.8727
 
 - - -
 
-## KNN
+### KNN
 * Grid test score: 0.8441
 
 ---
-## SVM
-* Grid test score: 0.874
+
+### SVM
+* Grid test score: 0.8736
 
 ---
-## Neural Network and Deep Learning
-* Neural Network test score: 0.8844 
-* Neural Network loss: 0.3124
 
-* Deep Learning test score: 0.8827
-* Deep Learning loss: 0.6334
+### Neural Network and Deep Learning
+* Neural Network test score: 0.8953 
+* Neural Network loss: 0.2794
+
+* Deep Learning test score: 0.8936
+* Deep Learning loss: 0.6239
+
+---
+
+## Model Analysis
+* My best model score was for the neural network, however, the loss was higher than I would have liked. To improve the model, I would need to find the proper balance between number of nodes in the hidden layer and training epochs.  
 
 
 ## Resources
